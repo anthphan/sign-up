@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+}
+
+div {
+    border: red solid 2px;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 550;
+}
+
+.left {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 72px;
+}
+
+img {
+    width: 600px;
+    object-fit: cover;
+}
+
+.logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
