@@ -1,0 +1,192 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* div {
+    border: 2px solid red;
+} */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.3em;
+}
+
+.container {
+    display: flex;
+}
+
+.left {
+    width: 40%;
+    height: 100vh;
+    object-fit: contain;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    background-image: url(assets/halie-west-25xggax4bSA-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, .4);
+    font-family: 'norse';
+    margin-top: 5.8em;
+    width: 100%;
+    padding: .5em 0;
+}
+
+
+.logo-img {
+    height: auto;
+    width: 4em;
+}
+
+h1 {
+    margin-top: .25em;
+    font-size: 4em;
+    line-height: 1.2rem;
+}
+
+.credit {
+    position: absolute;
+    bottom: 0;
+    font-size: .6em;
+    padding: 1em;
+}
+
+a {
+    color: white;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.form-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.split {
+    flex: 1;
+}
+
+label {
+    text-transform: uppercase;
+    font-size: .5em;
+    letter-spacing: .1em;
+    padding-top: 1.4em;
+    padding-bottom: .2em;
+}
+
+input {
+    border: 1px solid #E5E7EB;
+    border-radius: 3px;
+    width: 75%;
+}
+
+input, label {
+    display: block;
+}
+
+.top, .middle, .bottom {
+    padding: 2em;
+}
+
+.top {
+    padding-top: 5em;
+    box-shadow: inset 0px 0px 2px 0px lightgray; 
+}
+
+.middle p{
+    padding: .3em 0;
+}
+
+.middle {
+    padding: 1em 2em;
+}
+
+.bottom {
+    padding-top: 1.5em;
+    box-shadow: inset 0px 8px 8px -3px lightgray; 
+}
+
+button {
+    color: white;
+    background-color: #596D48;
+    padding: .8em 3em;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.bottom p {
+    padding-top: 2em;
+    font-size: .6em;
+}
+
+.bottom a{
+    color: #596D48;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+input:focus {
+    border: 1px solid blue;
+}
+
+.error {
+    border: 1px solid red;
+}
+
