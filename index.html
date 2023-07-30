@@ -4,8 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Hi</h1>
+    <section>
+        <div class="container">
+            <div class="left">
+                <div class="logo">
+                    <img class="logo-img" src="assets/odin-lined.png" alt="picture of odin">
+                    <h1>ODIN</h1>
+                </div>
+                <div class="credit">
+                    <p>Photo by <a href="#">Halie West</a> on <a href="#">Unsplash</a></p>
+                </div>
+            </div>
+
+            <div class="right">
+                <div class="top">
+                    <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. </p>
+                    <p>Sign up <i>now</i> to get started.</p>
+                    <br>
+                    <p>You <i>know</i> you want to.</p>
+                </div>
+
+                <div class="middle">
+                    <p>Let's do this!</p>
+                    <form action="post" id="form1">
+                        <div class="form-container">
+                            <div class="split form-left">
+                                <label for="fname">first name</label>
+                                <input type="text" name="fname">  
+    
+                                <label for="email">email</label>
+                                <input type="email" name="email">
+                                        
+                                <label for="password">password</label>
+                                <input type="password" name="password">
+                            </div>
+        
+                            <div class="split form-right">
+                                <label for="lname">last name</label>
+                                <input type="text" name="lname">
+                
+                                <label for="phone">phone number</label>
+                                <input type="text" name="phone">
+                
+                                <label for="confirm">confirm password</label>
+                                <input type="password"  name="confirm">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="bottom">
+                    <button type="submit" form="form1" value="submit">Create Account</button>
+                    <p>Already have an account? <a href="#">Log in</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
